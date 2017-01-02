@@ -1,0 +1,482 @@
+﻿@{
+    ViewData["Title"] = "Accommodation";
+}
+
+<div class="row margin-top-lg clearfix">
+    <div class="col-xs-12 col-sm-12">
+        <div class="panel panel-default background-darkGray">
+            <div class="panel-body">
+                <div class="iconSection-sm">
+                    <div style="font-size:60px; position:absolute; top:20px; left:5px;" class="ltGray">
+                        <i class="fa fa-bed"></i>
+                    </div>
+                    <div style="font-size:25px; position:absolute; top:0px; left:60px;" class="accent">
+                        <i class="fa fa-h-square "></i>
+                    </div>
+                </div>
+                <div class="row row-withIconSection">
+                    <div class="col-xs-12 ltGray">
+                        <h1 class="margin-top-none hidden-xs">Accommodation</h1>
+                        <h2 class="margin-top-none visible-xs-block">Accommodation</h2>
+                        <p>Somewhere to rest your head after those few tipples and all that dancing? Here are the options.</p>
+                    </div>
+                </div>
+                <br class="clearbreak" />
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="panel panel-default background-ltGray">
+            <div class="panel-body">
+                <div class="iconSection">
+                    <div class="visible-xs">
+                        <div style="font-size:75px; position:absolute; top:0px; left:5px;" class="darkGray">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                        <img style="position:absolute; top:10px; left:20px; width:40px;" alt="Gaynes Park" src="/images/gp-icon.png">
+                    </div>
+                    <div class="hidden-xs">
+                        <div style="font-size:150px; position:absolute; top:0px; left:5px;" class="darkGray">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                        <img style="position:absolute; top:20px; left:35px; width:80px;" alt="Gaynes Park" src="/images/gp-icon.png">
+                    </div>
+                </div>
+                <div class="row row-withIconSection">
+                    <div class="col-xs-12">
+                        <h2 class="margin-top-none">The Venue</h2>
+                        <p>
+                            There are a limited number of rooms at the venue. These will be offered to members of the wedding party first but if you would like to be notified if any rooms become available, please let us know.
+                        </p>
+                        <p>
+                            Find out more here<br />
+                            <a class="btn btn-primary" href="http://www.gaynespark.co.uk/accommodation/" alt="Marriott" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Gaynes Park</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="panel panel-default background-ltGray">
+            <div class="panel-body">
+                <div class="iconSection">
+                    <div class="visible-xs">
+                        <img style="position:absolute; top:0px; left:5px; width:65px;" alt="Marriott" src="/images/marriott-icon.png">
+                    </div>
+                    <div class="hidden-xs">
+                        <img style="position:absolute; top:0px; left:5px; width:130px;" alt="Marriott" src="~/images/marriott-icon.png">
+                    </div>
+                </div>
+                <div class="row row-withIconSection">
+                    <div class="col-xs-12">
+                        <h2 class="margin-top-none">Waltham Abbey Marriott</h2>
+                        <p>
+                            The Waltham Abbey Marriott is close to the venue, just a &pound;15 cab ride, and they have arranged a special discounted rate for Saturday evening. &pound;100 per double room including breakfast (cooked not that continental stuff) and parking.
+                        </p>
+                        <p>
+                            To get the special rate you can use this link to the Marriott website  - (This version of the Mariot website only works with IE)<br />
+                            <a class="btn btn-primary" href="http://cwp.marriott.com/lonwa/boothharding/" alt="Marriott" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Marriott</i></a>
+                        </p>
+                        <p>
+                            Alternatively call the Marriott on 01992 717170 (option 1, option 1) and quote D-Zero-L.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-12">
+        <div class="panel panel-default background-ltGray">
+            <div class="panel-body">
+                <div class="iconSection hidden-xs">
+                    <div class="visible-xs">
+                        <div style="font-size:42px; position:absolute; top:0px; left:5px;" class="darkGray">
+                            <i class="fa fa-map-o"></i>
+                        </div>
+                        <div style="font-size:45px; position:absolute; top:20px; left:50px;" class="accent">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                    </div>
+                    <div class="hidden-xs">
+                        <div style="font-size:85px; position:absolute; top:0px; left:5px;" class="darkGray">
+                            <i class="fa fa-map-o"></i>
+                        </div>
+                        <div style="font-size:90px; position:absolute; top:40px; left:95px;" class="accent">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-withIconSection">
+                    <div class="col-xs-12">
+                        <h2 class="margin-top-none">Others Near By</h2>
+                        <p> 
+                            There are a number of hotels close to Gaynes Park, below is a small selection of the hotels which are nearby. We have only stayed at the Marriott, where we have also arranged the preferential rate. The rest are in no particular order, but you can find links to check them out.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div id="map-canvas" class="margin-bottom-md" style="width:350px; height:400px;"></div>
+                        <noscript>
+                            <b>JavaScript must be enabled in order for you to use Google Maps.</b> However, it seems JavaScript is either disabled or not supported by your browser. To view Google Maps, enable JavaScript by changing your browser options, and then try again.
+                        </noscript>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="border-bottom-darkGrey margin-bottom-sm">
+                            <h4><i class="fa fa-star" aria-hidden="true"></i>. <a rel=nofollow href="Javascript:myclick(100)">Wedding Venue - Gaynes Park</a></h4>
+                            <p>
+                                Banks Lane,<br />
+                                Coopersale,<br />
+                                Epping,<br />
+                                Essex<br />
+                                CM16 7RJ
+                            </p>
+                        </div>
+                        <div class="border-bottom-darkGrey margin-bottom-sm">
+                            <h4>A. <a rel=nofollow href="Javascript:myclick(1)">Marriott Waltham Abbey</a></h4>
+                            <p>
+                                We agreed a special rate with the Marriott see above.
+                            </p>
+                            <p>
+                                Old Shire Lane<br />
+                                Essex<br />
+                                EN9 3LX
+                            </p>
+                            <p>
+                                Price : &pound; 100 
+                            </p>
+                            <p>
+                                <a href="http://cwp.marriott.com/lonwa/boothharding/" alt="Hotel website" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Website</a>
+                            </p>
+                        </div>
+                        <div class="border-bottom-darkGrey margin-bottom-sm">
+                            <h4>B. <a rel=nofollow href="Javascript:myclick(0)">Premier Inn Loughton/Buckhurst Hill</a></h4>
+                            <p>
+                                High Road,<br />
+                                Buckhurst Hill,<br />
+                                Essex<br />
+                                IG9 5HT
+                            </p>
+                            <p>
+                                Prices From : &pound; 57
+                            </p>
+                            <p>
+                                <a href="http://www.premierinn.com/gb/en/hotels/england/essex/loughton/loughtonbuckhurst-hill.html" alt="Hotel website" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Website</a>
+                            </p>
+                        </div>
+                        <div class="border-bottom-darkGrey margin-bottom-sm">
+                            <h4>C. <a rel=nofollow href="Javascript:myclick(2)">Premier Inn Harlow</a></h4>
+                            <p>
+                                Cambridge Road,<br />
+                                Essex<br />
+                                CM20 2EP
+                            </p>
+                            <p>
+                                Prices From : &pound; 37
+                            </p>
+                            <p>
+                                <a href="http://www.premierinn.com/gb/en/hotels/england/essex/harlow/harlow.html" alt="Hotel website" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Website</a>
+                            </p>
+                        </div>
+                        <div class="border-bottom-darkGrey margin-bottom-sm">
+                            <h4>D. <a rel=nofollow href="Javascript:myclick(3)">Premier Inn Waltham Abbey</a></h4>
+                            <p>
+                                The Grange,<br />
+                                Waltham Abbey,<br />
+                                EN9 3QF
+                            </p>
+                            <p>
+                                Prices From : &pound; 45
+                            </p>
+                            <p>
+                                <a href="http://www.premierinn.com/gb/en/hotels/england/essex/waltham-abbey/waltham-abbey.html" alt="Hotel website" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Website</a>
+                            </p>
+                        </div>
+                        <div class="border-bottom-darkGrey margin-bottom-sm">
+                            <h4>E. <a rel=nofollow href="Javascript:myclick(4)">The Bell Hotel Epping</a></h4>
+                            <p>
+                                High Road,<br />
+                                Epping<br />
+                                CM16 4DG
+                            </p>
+                            <p>
+                                Prices From : &pound; 105
+                            </p>
+                            <p>
+                                <a href="http://www.bellepping.co.uk/" alt="Hotel website" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Website</a>
+                            </p>
+                        </div>
+                        <div class="border-bottom-darkGrey margin-bottom-sm">
+                            <h4>F. <a rel=nofollow href="Javascript:myclick(5)">The Fox Inn</a></h4>
+                            <p>
+                                The Green,<br />
+                                Essex<br />
+                                CM17 0QS
+                            </p>
+                            <p>
+                                Prices From : &pound; 55
+                            </p>
+                            <p>
+                                <a href="http://www.thefoxinn.com/" alt="Hotel website" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Website</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyAoQCaewOP3BTL2T89k1vf8fWGTKx6Dnt0"></script>
+<script type="text/javascript">
+    var arrMarkers = [];
+
+    function initialize() {
+        var i = 0;
+
+        var markersarray = new Array();
+
+        var infowindow = new google.maps.InfoWindow({
+            content: "s!"
+        });
+
+        var map = new google.maps.Map(document.getElementById('map-canvas'), {
+            center: new google.maps.LatLng(51.695078, 0.146663),
+            zoom: 13,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        });
+
+        var bounds = new google.maps.LatLngBounds();
+
+        infoWindows = Array();
+
+        // Gaynes Park
+
+        var myLatLng = new google.maps.LatLng(parseFloat(51.695078), parseFloat(0.146663));
+
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            icon: "http://default.gettingmarried.co.uk/images/maps/icon-star.gif",
+            infoWindowIndex: 100
+        });
+
+        bounds.extend(myLatLng);
+
+        var contentString = "<font color='black'><img src=http://www.gettingmarried.co.uk/siteimages/thumbnail_20100825144954000000cbb1144a4279d28f145e00ad2442d16f.jpg width=90 height=60 border=0 align=left>Wedding Ceremony Venue<br/>Gaynes Park<br/>Banks Lane, Coopersale<br/>      CM16 7RJ</font>";
+
+        var infoWindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        google.maps.event.addListener(marker, 'click', function (event) {
+            var myLatLng = new google.maps.LatLng(parseFloat(51.695078), parseFloat(0.146663));
+
+            map.panTo(myLatLng);
+            map.setZoom(10);
+            infoWindows[this.infoWindowIndex].open(map, this);
+        });
+
+        infoWindows[100] = infoWindow;
+        arrMarkers[100] = marker;
+
+        // A
+
+        i = 1;
+        var letter = String.fromCharCode("A".charCodeAt(0) + 0);
+        var myLatLng = new google.maps.LatLng(parseFloat(51.681476), parseFloat(0.02831));
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            icon: "http://www.google.com/mapfiles/marker" + letter + ".png",
+            infoWindowIndex: i
+
+        });
+        bounds.extend(myLatLng);
+        var contentString = "<table 'width=150' border=0><tr><td></td><td><font color='black'><b>Marriott Waltham Abbey</b><br/><a rel=nofollow href='http://cwp.marriott.com/lonwa/boothharding/' target=hotelwindow>Website</a></font></td></tr></table>";
+        var infoWindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        google.maps.event.addListener(marker, 'click',
+                    function (event) {
+                        var myLatLng = new google.maps.LatLng(parseFloat(51.681476), parseFloat(0.02831));
+
+                        map.panTo(myLatLng);
+                        map.setZoom(10);
+                        infoWindow.setContent("");
+                        infoWindows[this.infoWindowIndex].open(map, this);
+
+                    }
+                );
+        infoWindows[i] = infoWindow;
+        arrMarkers[i] = marker;
+
+        // B
+
+        i = 0;
+        var letter = String.fromCharCode("A".charCodeAt(0) + 1);
+        var myLatLng = new google.maps.LatLng(parseFloat(51.625409), parseFloat(0.031766));
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            icon: "http://www.google.com/mapfiles/marker" + letter + ".png",
+            infoWindowIndex: i
+
+        });
+        bounds.extend(myLatLng);
+        var contentString = "<table 'width=150' border=0><tr><td></td><td><font color='black'><b>Premier Inn Loughton/Buckhurst Hill</b><br/><a rel=nofollow href='http://www.premierinn.com/gb/en/hotels/england/essex/loughton/loughtonbuckhurst-hill.html' target=hotelwindow>Website</a></font></td></tr></table>";
+        var infoWindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        google.maps.event.addListener(marker, 'click',
+                    function (event) {
+                        var myLatLng = new google.maps.LatLng(parseFloat(51.707267), parseFloat(0.203287));
+
+                        map.panTo(myLatLng);
+                        map.setZoom(10);
+                        infoWindow.setContent("");
+                        infoWindows[this.infoWindowIndex].open(map, this);
+
+                    }
+                );
+        infoWindows[i] = infoWindow;
+        arrMarkers[i] = marker;
+
+        // C
+
+        i = 2;
+        var letter = String.fromCharCode("A".charCodeAt(0) + 2);
+        var myLatLng = new google.maps.LatLng(parseFloat(51.79521), parseFloat(0.131376));
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            icon: "http://www.google.com/mapfiles/marker" + letter + ".png",
+            infoWindowIndex: i
+
+        });
+        bounds.extend(myLatLng);
+        var contentString = "<table 'width=150' border=0><tr><td></td><td><font color='black'><b>Premier Inn Harlow</b><br/><a rel=nofollow href='http://www.premierinn.com/gb/en/hotels/england/essex/harlow/harlow.html' target=hotelwindow>Website</a></font></td></tr></table>";
+        var infoWindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        google.maps.event.addListener(marker, 'click',
+                    function (event) {
+                        var myLatLng = new google.maps.LatLng(parseFloat(51.79521), parseFloat(0.131376));
+
+                        map.panTo(myLatLng);
+                        map.setZoom(10);
+                        infoWindow.setContent("");
+                        infoWindows[this.infoWindowIndex].open(map, this);
+
+                    }
+                );
+        infoWindows[i] = infoWindow;
+        arrMarkers[i] = marker;
+
+        // D
+
+        i = 3;
+        var letter = String.fromCharCode("A".charCodeAt(0) + 3);
+        var myLatLng = new google.maps.LatLng(parseFloat(51.668907), parseFloat(0.0016773));
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            icon: "http://www.google.com/mapfiles/marker" + letter + ".png",
+            infoWindowIndex: i
+
+        });
+        bounds.extend(myLatLng);
+        var contentString = "<table 'width=150' border=0><tr><td></td><td><font color='black'><b>Premier Inn Waltham Abbey</b><br/><a rel=nofollow href='http://www.premierinn.com/gb/en/hotels/england/essex/waltham-abbey/waltham-abbey.html' target=hotelwindow>Website</a></font></td></tr></table>";
+        var infoWindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        google.maps.event.addListener(marker, 'click',
+                    function (event) {
+                        var myLatLng = new google.maps.LatLng(parseFloat(51.668907), parseFloat(0.0016773));
+
+                        map.panTo(myLatLng);
+                        map.setZoom(10);
+                        infoWindow.setContent("");
+                        infoWindows[this.infoWindowIndex].open(map, this);
+
+                    }
+                );
+        infoWindows[i] = infoWindow;
+        arrMarkers[i] = marker;
+
+        // E
+
+        i = 4;
+        var letter = String.fromCharCode("A".charCodeAt(0) + 4);
+        var myLatLng = new google.maps.LatLng(parseFloat(51.69194), parseFloat(0.09647));
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            icon: "http://www.google.com/mapfiles/marker" + letter + ".png",
+            infoWindowIndex: i
+
+        });
+        bounds.extend(myLatLng);
+        var contentString = "<table 'width=150' border=0><tr><td></td><td><font color='black'><b>The Bell Hotel Epping</b><br/><a rel=nofollow href='http://www.bellepping.co.uk/' target=hotelwindow>Website</a></font></td></tr></table>";
+        var infoWindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        google.maps.event.addListener(marker, 'click',
+                    function (event) {
+                        var myLatLng = new google.maps.LatLng(parseFloat(51.69194), parseFloat(0.09647));
+
+                        map.panTo(myLatLng);
+                        map.setZoom(10);
+                        infoWindow.setContent("");
+                        infoWindows[this.infoWindowIndex].open(map, this);
+
+                    }
+                );
+        infoWindows[i] = infoWindow;
+        arrMarkers[i] = marker;
+
+        // F
+
+        i = 5;
+        var letter = String.fromCharCode("A".charCodeAt(0) + 5);
+        var myLatLng = new google.maps.LatLng(parseFloat(51.779334), parseFloat(0.195112));
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            icon: "http://www.google.com/mapfiles/marker" + letter + ".png",
+            infoWindowIndex: i
+
+        });
+        bounds.extend(myLatLng);
+        var contentString = "<table 'width=150' border=0><tr><td></td><td><font color='black'><b>The Fox Inn</b><br/><a rel=nofollow href='http://www.thefoxinn.com/' target=hotelwindow>Website</a></font></td></tr></table>";
+        var infoWindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        google.maps.event.addListener(marker, 'click',
+                    function (event) {
+                        var myLatLng = new google.maps.LatLng(parseFloat(51.779334), parseFloat(0.195112));
+
+                        map.panTo(myLatLng);
+                        map.setZoom(10);
+                        infoWindow.setContent("");
+                        infoWindows[this.infoWindowIndex].open(map, this);
+
+                    }
+                );
+        infoWindows[i] = infoWindow;
+        arrMarkers[i] = marker;
+
+        map.fitBounds(bounds);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+
+    function myclick(i) {
+        google.maps.event.trigger(arrMarkers[i], 'click');
+    }
+</script>

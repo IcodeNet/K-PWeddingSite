@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "RSVP";
+}
+
+<div class="row margin-top-lg clearfix">
+    <div class="col-xs-12 col-sm-12 col-lg-10 col-lg-offset-1">
+        <div class="panel panel-default background-darkGray" style="margin-left:-12px; margin-right:-12px;">
+            <div class="panel-body">
+                <div class="iconSection-sm">
+                    <div style="font-size:42px; position:absolute; top:0px; left:5px;" class="accent">
+                        <i class="fa fa-calendar-check-o "></i>
+                    </div>
+                    <div style="font-size:42px; position:absolute; top:32px; left:35px;"  class="ltGray">
+                        <i class="fa fa-calendar-times-o"></i>
+                    </div>
+                </div>
+                <div class="row row-withIconSection">
+                    <div class="col-xs-12 ltGray">
+                        <h1 class="margin-top-none">RSVP</h1>
+                        <p>Let us know if you can join us for our big day</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12">
+        <script type="text/javascript" src="http://app.rsvpify.com/embed/80513"></script>
+        <script type="text/javascript" src="http://app.rsvpify.com/js/iframeResizer.min.js"></script>
+        <script type="text/javascript">iFrameResize({ autoResize: true, heightCalculationMethod: 'max', enablePublicMethods: true }, "#RSVPifyIFrame");</script>
+    </div>
+</div>

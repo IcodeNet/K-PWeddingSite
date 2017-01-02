@@ -1,0 +1,31 @@
+﻿	.form-horizontal .control-label, .form-control, a, a:hover {
+		color: #973f90;
+	}
+
+	.form-control:focus, .btn-primary:hover, .btn-primary:focus {
+		border-color: #973f90;
+		box-shadow: 0 0 4px 1px #973f90;
+	}
+
+	.btn-primary {
+		background: #973f90;
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #973f90), color-stop(100%, #6a2c65));
+		background: -webkit-linear-gradient(top, #973f90 0%, #6a2c65 100%);
+		background: -o-linear-gradient(top, #973f90 0%, #6a2c65 100%);
+		background: -ms-linear-gradient(top, #973f90 0%, #6a2c65 100%);
+		background: linear-gradient(to bottom, #973f90 0%, #6a2c65 100%);
+        border-color: #973f90;;
+	}
+
+	.btn-primary:active {
+		background: #6a2c65;
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6a2c65), color-stop(100%, #6a2c65));
+		background: -webkit-linear-gradient(top, #6a2c65 0%, #6a2c65 100%);
+		background: -o-linear-gradient(top, #6a2c65 0%, #6a2c65 100%);
+		background: -ms-linear-gradient(top, #6a2c65 0%, #6a2c65 100%);
+		background: linear-gradient(to bottom, #6a2c65 0%, #6a2c65 100%);	
+	}
+
+	.numberCircle, .separate_line {
+		background: #973f90;	
+	}

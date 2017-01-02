@@ -1,0 +1,306 @@
+﻿@{
+    ViewData["Title"] = "Kari & Paul 2017";
+}
+
+<div class="jumbotron padding-top-none padding-bottom-none margin-top-lg clearfix hidden-lg hidden-md" style="background-image:url(/images/landingBackground_xs.png); background-repeat:no-repeat; background-color:rgba(0,0,0,0.75); height:475px; ">
+    <img src="~/images/landingIcon_xs.png" class="landingIcon_sm" />
+</div>
+
+<div class="jumbotron padding-top-none padding-bottom-none margin-top-lg clearfix hidden-sm hidden-xs" style="background-image:url(/images/landingBackground.png); background-repeat:no-repeat; background-color:rgba(0,0,0,0.75); height:475px; ">
+    <img src="~/images/landingIcon.png" class="landingIcon" />
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-9">
+        <div class="panel panel-default background-darkGray">
+            <div class="panel-body ltGray">
+                <h1 class="margin-top-none">Kari<span class="ltGray">&amp;</span>Paul</h1>
+                <p>Welcome to our wedding site! We have created this site to hold all the information you will need to help us celebrate our big day.</p>
+                <p>It will hopefully also mean that those of you who are likely to ask Paul questions don’t have to wait for him to forward the questions to me to get a response!</p>
+            </div>
+        </div>
+    </div>
+    <div class="hidden-xs col-sm-4 col-md-3">
+        <div class="panel panel-default background-ltGray">
+            <div class="panel-body text-center" id="countdown1">
+                <h3 class="margin-top-none">The countdown has begun</h3>
+                <p>Just <span class="accent clock-days">0</span> days <span class="accent clock-hours">0</span> hours <span class="accent clock-minutes">0</span> minutes &amp; <span class="accent clock-seconds">0</span> seconds untill the big day.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-6">
+        <div class="panel panel-default background-ltGray">
+            <div class="panel-body">
+                <div class="iconSection">
+                    <div class="visible-xs">
+                        <div style="font-size:42px; position:absolute; top:0px; left:5px;" class="accent">
+                            <i class="fa fa-calendar-check-o "></i>
+                        </div>
+                        <div style="font-size:42px; position:absolute; top:32px; left:35px;" class="darkGray">
+                            <i class="fa fa-calendar-times-o"></i>
+                        </div>
+                    </div>
+                    <div class="hidden-xs">
+                        <div style="font-size:85px; position:absolute; top:0px; left:5px;" class="accent">
+                            <i class="fa fa-calendar-check-o "></i>
+                        </div>
+                        <div style="font-size:85px; position:absolute; top:65px; left:65px;" class="darkGray">
+                            <i class="fa fa-calendar-times-o"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-withIconSection">
+                    <div class="col-xs-12">
+                        <h2 class="margin-top-none">Save The Date - 18th March 2017</h2>
+                        <p>We hope you can join us, please let us know by RSVPing. You will need the code we included in your invite.</p>
+                        <p><a class="btn btn-primary" asp-controller="Home" asp-action="RSVP" role="button">RSVP Now <i class="fa fa-check"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-6">
+        <div class="panel panel-default background-ltGray">
+            <div class="panel-body">
+                <div class="iconSection">
+                    <div class="visible-xs">
+                        <div style="font-size:75px; position:absolute; top:0px; left:5px;" class="darkGray">
+                            <i class="fa fa-calendar"></i>
+                        </div>
+                        <div style="font-size:18px; position:absolute; top:40px; left:41px;" class="accent">
+                            <i class="fa fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="hidden-xs">
+                        <div style="font-size:150px; position:absolute; top:0px; left:5px;" class="darkGray">
+                            <i class="fa fa-calendar"></i>
+                        </div>
+                        <div style="font-size:38px; position:absolute; top:80px; left:80px;" class="accent">
+                            <i class="fa fa-check"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-withIconSection">
+                    <div class="col-xs-12">
+                        <h2 class="margin-top-none">The Day</h2>
+                        <p>The ceremony and reception will be taking place at Gaynes Park in Epping on the 18th March 2017.</p>
+                        <p>Details on times and other important information can be found here</p>
+                        <p><a class="btn btn-primary" asp-controller="Home" asp-action="TheDay" role="button">The Day <i class="fa fa-calendar"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-6">
+        <div class="panel panel-default background-ltGray">
+            <div class="panel-body">
+                <div class="iconSection">
+                    <div class="visible-xs">
+                        <div style="font-size:60px; position:absolute; top:20px; left:5px;" class="darkGray">
+                            <i class="fa fa-bed"></i>
+                        </div>
+                        <div style="font-size:25px; position:absolute; top:0px; left:60px;" class="accent">
+                            <i class="fa fa-h-square "></i>
+                        </div>
+                    </div>
+                    <div class="hidden-xs">
+                        <div style="font-size:100px; position:absolute; top:40px; left:5px;" class="darkGray">
+                            <i class="fa fa-bed"></i>
+                        </div>
+                        <div style="font-size:50px; position:absolute; top:0px; left:100px;" class="accent">
+                            <i class="fa fa-h-square"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-withIconSection">
+                    <div class="col-xs-12">
+                        <h2 class="margin-top-none">Accommodation</h2>
+                        <p>Somewhere to rest your head after those few tipples and all that dancing? Here are the options.</p>
+                        <p><a class="btn btn-primary" asp-controller="Home" asp-action="Accommodation" role="button">Accommodation <i class="fa fa-bed"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-6">
+        <div class="panel panel-default background-ltGray">
+            <div class="panel-body">
+                <div class="iconSection">
+                    <div class="visible-xs">
+                        <div style="font-size:75px; position:absolute; top:0px; left:5px;" class="darkGray">
+                            <i class="fa fa-plane"></i>
+                        </div>
+                        <div style="font-size:35px; position:absolute; top:45px; left:50px;" class="accent">
+                            <i class="fa fa-gift"></i>
+                        </div>
+                    </div>
+                    <div class="hidden-xs">
+                        <div style="font-size:150px; position:absolute; top:0px; left:5px;" class="darkGray">
+                            <i class="fa fa-plane"></i>
+                        </div>
+                        <div style="font-size:70px; position:absolute; top:85px; left:90px;" class="accent">
+                            <i class="fa fa-gift"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-withIconSection">
+                    <div class="col-xs-12">
+                        <h2 class="margin-top-none">Gifts</h2>
+                        <p>All we need on our wedding day is the pleasure of your company, but for those of you who would like to help us have a honeymoon in style we have set up this gift list. </p>
+                        <p><a class="btn btn-primary" asp-controller="Home" asp-action="Gifts" role="button">Gifts <i class="fa fa-gift"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-6">
+        <div class="panel panel-default background-ltGray">
+            <div class="panel-body">
+                <div class="iconSection">
+                    <div class="visible-xs">
+                        <div style="font-size:75px; position:absolute; top:0px; left:5px;" class="darkGray">
+                            <i class="fa fa-question-circle"></i>
+                        </div>
+                        <div style="font-size:35px; position:absolute; top:45px; left:50px;" class="accent">
+                            <i class="fa fa-question"></i>
+                        </div>
+                    </div>
+                    <div class="hidden-xs">
+                        <div style="font-size:150px; position:absolute; top:0px; left:5px;" class="darkGray">
+                            <i class="fa fa-question-circle"></i>
+                        </div>
+                        <div style="font-size:70px; position:absolute; top:85px; left:100px;" class="accent">
+                            <i class="fa fa-question"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-withIconSection">
+                    <div class="col-xs-12">
+                        <h2 class="margin-top-none">Other Questions</h2>
+                        <p>If you need any information that isn't included anywhere here, please do get in touch and we'll let you know and update the site - you probably aren't the only one looking for it!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="visible-xs col-xs-12">
+        <div class="panel panel-default background-darkGray">
+            <div class="panel-body text-center ltGray" id="countdown2">
+                <h3 class="margin-top-none">The countdown has begun</h3>
+                <p>Just <span class="accent clock-days">0</span> days <span class="accent clock-hours">0</span> hours <span class="accent clock-minutes">0</span> minutes &amp; <span class="accent clock-seconds">0</span> seconds untill the big day.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panel-default background-darkGray">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-12 margin-top-none">
+                        <div class="text-center margin-top-ngtv">
+                            <span class="visible-xs visible-sm">
+                                <div style="font-size:40px;" class="accent">
+                                    <i class="fa fa-instagram"></i>
+                                </div>
+                            </span>
+                            <div class="hidden-xs hidden-sm">
+                                <div style="font-size:75px;" class="accent">
+                                    <i class="fa fa-instagram"></i>
+                                </div>
+                            </div>
+                            <p class="ltGray">
+                                Don't forget to tag your pictures <span class="accent"><b>#kariandpaul</b></span>
+                            </p>
+                            <p>
+                                <a class="btn btn-primary" role="button" href="https://www.instagram.com/explore/tags/kariandpaul/">See Pictures <i class="fa fa-instagram"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panel-default background-darkGray">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="text-center margin-top-ngtv">
+                            <span class="visible-xs visible-sm">
+                                <div style="font-size:40px;" class="accent">
+                                    <i class="fa fa-rss"></i>
+                                </div>
+                            </span>
+                            <div class="hidden-xs hidden-sm">
+                                <div style="font-size:75px;" class="accent">
+                                    <i class="fa fa-rss"></i>
+                                </div>
+                            </div>
+                            <p class="ltGray">
+                                Kari has also been writing a blog about the wedding
+                            </p>
+                            <p>
+                                <a class="btn btn-primary" role="button" href="http://kariandpaul.blogspot.co.uk/">Kari's Blog <i class="fa fa-rss"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var wedding = 'March 18 2017 12:30:00 GMT';
+
+    function getTimeRemaining(endtime) {
+        var t = Date.parse(endtime) - Date.parse(new Date());
+        var seconds = Math.floor((t / 1000) % 60);
+        var minutes = Math.floor((t / 1000 / 60) % 60);
+        var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+        var days = Math.floor(t / (1000 * 60 * 60 * 24));
+        return {
+            'total': t,
+            'days': days,
+            'hours': hours,
+            'minutes': minutes,
+            'seconds': seconds
+        };
+    }
+
+    function initializeClock(id1, id2, endtime) {
+        var clock1 = document.getElementById(id1);
+        var daysSpan1 = clock1.querySelector('.clock-days');
+        var hoursSpan1 = clock1.querySelector('.clock-hours');
+        var minutesSpan1 = clock1.querySelector('.clock-minutes');
+        var secondsSpan1 = clock1.querySelector('.clock-seconds');
+
+        var clock2 = document.getElementById(id2);
+        var daysSpan2 = clock2.querySelector('.clock-days');
+        var hoursSpan2 = clock2.querySelector('.clock-hours');
+        var minutesSpan2 = clock2.querySelector('.clock-minutes');
+        var secondsSpan2 = clock2.querySelector('.clock-seconds');
+
+        function updateClock() {
+            var t = getTimeRemaining(endtime);
+
+            daysSpan1.innerHTML = daysSpan2.innerHTML = t.days;
+            hoursSpan1.innerHTML = hoursSpan2.innerHTML = t.hours;
+            minutesSpan1.innerHTML = minutesSpan2.innerHTML = t.minutes;
+            secondsSpan1.innerHTML = secondsSpan2.innerHTML = t.seconds;
+
+            if (t.total <= 0) {
+                clearInterval(timeinterval);
+            }
+        }
+
+        updateClock(); // run function once at first to avoid delay
+        var timeinterval = setInterval(updateClock, 1000);
+    }
+
+    initializeClock('countdown1', 'countdown2', wedding);
+</script>
